@@ -22,36 +22,23 @@ angular
   .config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise('/login');
     $stateProvider
-  
-      // .when('/', {
-      //   templateUrl: 'views/main.html',
-      //   controller: 'MainCtrl',
-      //   controllerAs: 'main'
-      // })
-      // .when('/about', {
-      //   templateUrl: 'views/about.html',
-      //   controller: 'AboutCtrl',
-      //   controllerAs: 'about'
-      // })
-      // .otherwise({
-      //   redirectTo: '/'
-      // });
       .state('main', {
         url:'/',
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      // .state('/about', {
-      //   templateUrl:'views/about.html',
-      //   controller: 'AboutCtrl',
-      //   contrallerAs: 'about'
-      // })
-      .state("about", {
+      .state('about', {
         url:'/about',
         templateUrl:'/views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .state('contact', {
+        url:'/contact',
+        templateUrl:'/views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .state('login', {
         url: '/login',
