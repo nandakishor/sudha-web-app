@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name angularjsDemoApp.controller:AboutCtrl
+ * @name GoodTutorialApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the angularjsDemoApp
+ * Controller of the GoodTutorialApp
  */
-angular.module('angularjsDemoApp')
-    .controller('AboutCtrl', function (esriLoader, $scope) {
+angular.module('GoodTutorialApp')
+    .controller('AboutCtrl', function ($scope) {
         var self = this;
         
     });

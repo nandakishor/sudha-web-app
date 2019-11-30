@@ -2,16 +2,12 @@
 
 /**
  * @ngdoc function
- * @name angularjsDemoApp.controller:MainCtrl
+ * @name GoodTutorialApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the angularjsDemoApp
+ * Controller of the GoodTutorialApp
  */
-angular.module('angularjsDemoApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+angular.module('GoodTutorialApp')
+  .controller('MainCtrl', function ($scope) {
+      var self = this;
   });

@@ -2,12 +2,13 @@
 
 /**
  * @ngdoc function
- * @name GoodTutorialApp.controller:ContactCtrl
+ * @name GoodTutorialApp.controller:HeaderCtrl
  * @description
- * # ContactCtrl
+ * # HeaderCtrl
  * Controller of the GoodTutorialApp
  */
 angular.module('GoodTutorialApp')
-  .controller('ContactCtrl', function ($scope) {
+  .controller('HeaderCtrl', function ($scope) {
       var self = this;
+      
   });

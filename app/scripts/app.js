@@ -2,22 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name angularjsDemoApp
+ * @name GoodTutorialApp
  * @description
- * # angularjsDemoApp
+ * # GoodTutorialApp
  *
  * Main module of the application.
  */
 angular
-  .module('angularjsDemoApp', [
+  .module('GoodTutorialApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.router',
-    'esri.map'
+    'ui.router'
   ])
   .config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise('/login');
